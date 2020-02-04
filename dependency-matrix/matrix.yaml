@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: cramte
+  repo: jx-qs-python
+  url: https://github.com/cramte/jx-qs-python.git
+  version: ""
+  versionURL: ""
