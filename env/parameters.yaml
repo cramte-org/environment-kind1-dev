@@ -1,0 +1,15 @@
+adminUser:
+  password: local:kind1/adminUser:password
+  username: admin
+docker:
+  email: cramte@protonmail.com
+  password: local:kind1/docker:password
+  url: https://index.docker.io/v1/
+  username: cramte
+enableDocker: true
+pipelineUser:
+  email: cramte@protonmail.com
+  token: local:kind1/pipelineUser:token
+  username: cramte
+prow:
+  hmacToken: local:kind1/prow:hmacToken
