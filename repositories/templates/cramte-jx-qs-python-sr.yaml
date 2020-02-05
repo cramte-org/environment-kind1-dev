@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cramte
+    provider: github
+    repository: jx-qs-python
+  name: cramte-jx-qs-python
+spec:
+  description: Imported application for cramte/jx-qs-python
+  httpCloneURL: https://github.com/cramte/jx-qs-python.git
+  org: cramte
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-qs-python
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cramte/jx-qs-python.git
